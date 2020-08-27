@@ -23,7 +23,15 @@ function App() {
 
   return (
     <Container className="my-4">
-      <h1 className="mb-4">📚 Github Jobs Clone by Samuel Kueta 🔥 </h1>
+      <h1 className="mb-4">
+        <span role="img" aria-label="books">
+          📚
+        </span>{" "}
+        Github Jobs Clone by Samuel Kueta{" "}
+        <span role="img" aria-label="fire">
+          🔥
+        </span>
+      </h1>
       <SearchForm params={params} onParamChange={handleParamChange} />
       <JobsPagination page={page} setPage={setPage} hasNextPage={hasNextPage} />
       {loading && <h1>Loading...</h1>}
