@@ -1,6 +1,6 @@
 ## About 
 
-This is a Github Jobs clone created with ReactJS and React-boostrap.
+This is a Github Jobs clone created with ReactJS, React-boostrap and using a github jobs API.
 
 ** 🌩 Hosting on Netlify
 
